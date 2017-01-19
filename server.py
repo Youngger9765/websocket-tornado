@@ -5,6 +5,7 @@ import os
 from tornado import web, ioloop, websocket
 from tornado.options import define, options
 
+# 設定ip 跟 port
 define("ip", default="127.0.0.1")
 define("port", default=8888)
 
